@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Converter</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div id="parent">
+        <h1><u>Number Converter</u></h1>
+        <div id="parent1">
+            <div class="from">
+                <label for="from">From</label>
+                <br>
+                <select name="from" onchange="selectedSubjectName1()" id="from">
+                    <option value="Select">Select</option>
+                    <option value="Binary">Binary</option>
+                    <option value="Decimal">Decimal</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                  </select>
+            </div>
+            <div class="to">
+                <label for="to">To</label>
+                <br>
+                <select name="from" onchange="selectedSubjectName2()" id="to">
+                    <option value="Select">Select</option>
+                    <option value="Binary">Binary</option>
+                    <option value="Decimal">Decimal</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+        </div>
+        <div id="child1">
+            <label for="text" class="input">Enter value</label>
+            <br>
+            <input type="text" placeholder="Input Here....." class="input" id="input"/>
+        </div>
+       <div id="child2">  
+        <button id="convertbtn" onclick="convert()">Convert</button>
+        <button id="resetbtn" onclick="Reset()">Reset</button>
+        <button id="swapbtn" onclick="swap()">Swap</button>
+       </div>
+       <div>
+        <label for="output" class="output" id="output">Output</label>
+       <br>
+       <textarea name="textarea" id="textarea" cols="70" rows="5"></textarea>
+        </div>
+    </div>
+</body>
+</html>

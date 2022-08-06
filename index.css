@@ -1,0 +1,109 @@
+body{
+    background-image: url('./back1.jpg');
+}
+#parent{
+    background-image: url('./back2.jpg');
+    width: 650px;
+    height: 550px;
+    margin-left: 450px;
+    margin-top: 100px;
+    border: 1px solid white;
+    border-radius: 5px;
+    image-resolution: 100px;
+
+   }
+#parent1{
+    display: flex;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.from{
+    height: 30px;
+    width: 270px;
+    margin-left: 60px;
+    margin-top: 30px;
+    color: rgb(28, 2, 2);
+    font-weight: 700;
+    font-size: 20px;
+}
+.to{
+    height: 30px;
+    width: 270px;
+    margin-top: 30px;
+    color: rgb(20, 4, 4);
+    font-weight: 700;
+    font-size: 20px;
+}
+#from{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+}
+#to{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+}
+#child1{
+    margin-top: 80px;
+    margin-left: 60px;
+    color: rgb(2, 11, 0);
+    font-size: 20px;
+    font-weight: 700;
+}
+.input{
+    width: 520px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+}
+#convertbtn{
+margin:30px 0px 50px 75px;
+height: 40px;
+width: 150px;
+border: none;
+border-radius: 100px;
+background-color: chartreuse;
+color: white;
+font-size: 20px;
+font-weight: 700;
+}
+#resetbtn{
+margin:0px 0px 50px 20px;
+height: 40px;
+width: 150px;
+border: none;
+border-radius: 100px;
+background-color: chartreuse;
+color: white;
+font-size: 20px;
+font-weight: 700;
+}
+#swapbtn{
+margin:0px 0px 50px 20px;
+height: 40px;
+width: 150px;
+border: none;
+border-radius: 100px;
+background-color: chartreuse;
+color: white;
+font-size: 20px;
+font-weight: 700;
+}
+#swapbtn[type=button] : hover{
+background:white;
+}
+.output{
+margin-left: 55px;
+margin-top: 0%;
+font-size: 25px;
+font-weight: 700;
+
+}
+#textarea{
+    margin-left: 55px;
+}
